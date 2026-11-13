@@ -1,0 +1,23 @@
+{
+  "name": "github-activity",
+  "version": "1.0.0",
+  "description": "A CLI application that fetches recent GitHub user activity",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "github-activity": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+    
+    
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "api",
+    "javascript"
+  ],
+  "author": "Pravin Ngote",
+  "license": "MIT"
+}
