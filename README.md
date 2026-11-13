@@ -1,8 +1,7 @@
-
-
 # GitHub User Activity CLI
 
-A simple command-line application built with JavaScript and Node.js that fetches and displays the recent public activity of any GitHub user using the GitHub REST API.
+A command-line application built with JavaScript and Node.js
+that fetches recent public activity from GitHub users.
 
 ## Features
 
@@ -10,9 +9,7 @@ A simple command-line application built with JavaScript and Node.js that fetches
 - Display pushed commits.
 - Display opened issues and pull requests.
 - Display starred repositories.
-- Display repository forks and other events.
 - Handle invalid usernames and API errors.
-- No external dependencies.
 
 ## Technologies
 
@@ -28,35 +25,23 @@ A simple command-line application built with JavaScript and Node.js that fetches
 
 Clone the repository:
 
-    git clone YOUR_GITHUB_REPOSITORY_URL
+    git clone https://github.com/bravybravyne/github-activity.git
 
 Navigate into the project:
 
     cd github-activity
 
-Install and link the CLI:
-
-    npm link
-
 ## Usage
-
-    github-activity <username>
-
-Example:
-
-    github-activity kamranahmedse
-
-Alternatively:
 
     npm start -- kamranahmedse
 
-## API
+## API Endpoint
 
 https://api.github.com/users/<username>/events
 
-## Project Page
+## Project Repository
 
-YOUR_GITHUB_REPOSITORY_URL
+https://github.com/bravybravyne/github-activity
 
 ## Author
 
